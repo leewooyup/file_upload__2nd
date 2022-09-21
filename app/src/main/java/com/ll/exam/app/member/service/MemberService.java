@@ -43,4 +43,8 @@ public class MemberService {
 
         return member;
     }
+
+    public Member getMemberById(Long id) {
+        return memberRepsoitory.findById(id).orElse(null);
+    }
 }
