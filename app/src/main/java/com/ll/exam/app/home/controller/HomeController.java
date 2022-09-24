@@ -21,7 +21,7 @@ public class HomeController {
         if(principal != null && principal.getName() != null) {
             loginedMember = memberService.getMemberByUsername(principal.getName());
         }
-        
+
         if(loginedMember != null) {
             loginedMemberProfileImgUrl = loginedMember.getProfileImgUrl();
         }
