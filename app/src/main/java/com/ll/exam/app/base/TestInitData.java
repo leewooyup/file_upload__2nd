@@ -19,8 +19,6 @@ public class TestInitData {
             memberService.join("user2", password, "user2@test.com");
             memberService.join("user3", password, "user3@test.com");
             memberService.join("user4", password, "user4@test.com");
-            memberService.join("user5", password, "user5@test.com");
-            memberService.join("user6", password, "user6@test.com");
         };
     }
 }
