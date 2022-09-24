@@ -34,7 +34,7 @@ public class HomeController {
     public Principal currentUserOrigin(Principal principal) {
         return principal;
     }
-    
+
     @PreAuthorize("isAuthenticated()")
     @GetMapping("/currentUser")
     @ResponseBody
